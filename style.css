@@ -359,12 +359,20 @@ a {
   }
 
   .sale {
-    grid-template-columns: repeat(1, 343px);
+    grid-template-columns: repeat(1, 100%);
     justify-content: center;
   }
 
   .sale__item__big__img {
     min-height: 110px;
-    max-width: 343px;
+  }
+
+  .product-box__content {
+    grid-template-columns: repeat(auto-fit, 100%);
+    justify-items: center;
+  }
+
+  .product {
+    max-width: 360px;
   }
 }
